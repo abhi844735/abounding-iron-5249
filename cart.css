@@ -1,0 +1,107 @@
+#body_container {
+  width: 80%;
+  border: 1px dotted solid red;
+  margin: auto;
+  background-color: white;
+}
+#body_container>h1{
+    color: rgb(5, 182, 5);
+    margin-left: 2%;
+    margin-top: 2%;
+}
+#body_container>span:nth-child(2){
+    margin-left: 2%;
+}
+#body_container > button {
+  margin-left: 70%;
+
+}
+#body_container > button:hover{
+    cursor: pointer;
+}
+#empty_cart{
+    margin-left:85%;
+}
+#empty_btn:hover + #empty_cart{
+    display: block;
+    color: rgb(3, 169, 3);
+}
+
+#body_container > button>img{
+    width: 15%;
+    height: 20%;
+}
+#nav_total_item {
+  font-size: 40px;
+}
+body {
+  background-color: rgb(232, 230, 229);
+}
+#basket_options {
+  display: flex;
+  justify-content: space-around;
+  background-color: grey;
+  color: white;
+  padding: 1.3%;
+}
+#basket_options_items {
+  display: flex;
+  justify-content: space-around;
+  /* background-color: grey; */
+  color: black;
+  padding: 1.3%;
+}
+#count {
+  padding: 2px;
+  border: 1px solid red;
+  background-color: antiquewhite;
+}
+#quantity>span{
+    border: 1px solid red;
+}
+#basket_checkout_info{
+    display: flex;
+    justify-content: space-around;
+}
+#combo_offer{
+    /* border: 1px solid rgb(8, 159, 8); */
+    height: auto;
+    width: 10%;
+    border-radius: 10px 10px 10px 10px;
+    text-align: center;
+    /* box-shadow: rgba(4, 118, 13, 0.35) 0px 5px 15px; */
+    box-shadow: rgba(4, 102, 1, 0.25) 0px 54px 55px,  rgba(4, 102, 1, 0.25) 0px -12px 30px,  rgba(4, 102, 1, 0.25) 0px 4px 6px, rgba(4, 102, 1, 0.25) 0px 12px 13px,  rgba(4, 102, 1, 0.25) 0px -3px 5px;
+    color: green;
+}
+#combo_offer>p:nth-child(1){
+    font-weight: bold;
+}
+#checkout_details{
+    width: 60%;
+    border: 1px solid rgb(73, 72, 72);
+    /* padding-left: 5%; */
+    border-radius: 5px 5px 5px 5px;
+    box-shadow: rgba(4, 102, 1, 0.25) 0px -50px 36px -28px inset;
+}
+#checkout_details>span{
+    margin-left: 5%;
+}
+#checkout_details>button{
+    width: 20%;
+    margin-left: 70%;
+    padding: 10px 20px 10px 20px;
+    border-radius: 10px 10px 10px 10px;
+    border: none;
+    background-color: rgb(242, 193, 0);
+    font-weight: bold;
+    font-size: 17px;
+    margin-bottom: 2%;
+}
+#checkout_details>span:nth-child(9){
+    font-weight: bold;
+    font-size: 40px;
+}
+#checkout_details>span:nth-child(10){
+    font-weight: bold;
+    font-size: 40px;
+}
