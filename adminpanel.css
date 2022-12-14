@@ -1,0 +1,121 @@
+#top-section>h1{
+    text-align: center;
+    font-size: 45px;
+    color: white;
+    padding: 10px;
+    background-color: black;
+}
+body{
+    background-color: white;
+    font-family: 'Roboto', sans-serif;
+    color: black;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#main-div{
+    /* border: 1px solid black; */
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+/* #main-div>div{
+    border: 1px solid green;
+    height: auto;
+} */
+#main-div>div:nth-child(1){
+    /* border: 1px solid black; */
+    width: 25%;
+    padding: 20px 10px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 10px;
+    padding-top: 0px;
+}
+#main-div>div:nth-child(1)>form>select{
+    width: 100%;
+    font-size: 18px;
+    padding: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+#main-div>div:nth-child(1)>form>input{
+    width: 95%;
+    font-size: 18px;
+    padding: 5px;
+    margin-top: 5px;
+}
+label{
+    font-size: 25px;
+    margin-left: 6px;
+
+}
+#main-div>div:nth-child(1)>form>input[type="submit"]{
+    width: 70%;
+    margin: auto;
+    display: block;
+    border: none;
+    border-radius: 10px;
+    font-size: 18px;
+    background-color:black;
+    color: white;
+    padding: 5px;
+    font-size: 22px
+    
+    
+    ;
+    
+}
+#main-div>div:nth-child(2){
+    width: 50%;
+    /* box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px; */
+    height: auto;
+}
+#main-div>div:nth-child(2)>table{
+    width: 100%;
+}
+#main-div>div:nth-child(2)>h1{
+    background-color: black;
+    color: white;
+    padding: 8px;
+    text-align: center;
+}
+#main-div>div:nth-child(1)>h1{
+    background-color: black;
+    color: white;
+    padding: 8px;
+    border-radius: 5px;
+    text-align: center;
+}
+table, th, td {
+    border: 2px solid black;
+    border-collapse: collapse;
+    text-align: center;
+  }
+  th{
+    font-size: 23px;
+    padding: 7px;
+  }
+  td{
+    font-size: 16px;
+    padding: 5px;
+  }
+  td>button{
+    width: 50%;
+    font-size: 16px;
+    padding: 3px;
+    background-color: red;
+    border: none;
+    color: white;
+    padding: 3px 2px;
+    font-weight: 900;
+  }
+  tbody>tr:nth-child(2n+1){
+    background-color: lightblue;
+    color: black;
+  }
+  tbody>tr:nth-child(2n){
+    background-color: grey;
+    color:black;
+  }
+  

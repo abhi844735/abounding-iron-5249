@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="https://i.ibb.co/BsYPv6t/Grocery-Store.png" type="image/x-icon">
+    <link rel="icon" href="https://i.ibb.co/BsYPv6t/Grocery-Store.png" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="adminpanel.css">
+    <title>Admin Panel</title>
+</head>
+<body>
+    <div id="top-section">
+        <h1>Admin Panel</h1>
+    
+    </div>
+    <div id="main-div">
+        <div id="add_item_form">
+            <h1>Add Product to API  </h1>
+            <form action="">
+                <label for="">Product Name</label><br>
+                <input id="name" type="text" placeholder="Product name"> <br>
+                <label for="">Price of Product</label><br>
+                <input id="price" type="number" placeholder="Product Price"><br>
+                <label id="rating" for="">Rating</label> <br>
+                <input type="number" placeholder="Rating"><br>
+                <label for="">Image URL</label><br>
+                <input type="text" placeholder="URL"><br>
+                <label for="">Category</label><br>
+                <select name="" id="category"><br>
+                    <option value="">Select</option>
+                    <option value="vegetable">Vegetables</option>
+                    <option value="fruits">Fruits</option>
+                    <option value="health&medicine">Health & Medicine</option>
+                    <option value="foodgrain">Foodgrain & Oil</option>
+                    <option value="snacks">Snacks</option>
+                </select>
+              <br>  <input type="submit">
+
+            </form>
+        </div>
+        <div id="users_table">
+            <h1>Registered Users</h1>
+            <table  >
+                <thead>
+                    <tr>
+                        <th>Username</th>
+                        <th>Password</th>
+                        <th>Remove User</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Abhi Panchal</td>
+                        <td>12345678</td>
+                        <td><button>Delete</button></td>
+                    </tr>
+                    <tr>
+                        <td>Abhi Panchal</td>
+                        <td>12345678</td>
+                        <td><button>Delete</button></td>
+                    </tr>
+                    <tr>
+                        <td>Abhi Panchal</td>
+                        <td>12345678</td>
+                        <td><button>Delete</button></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+    </div>
+   
+</body>
+</html>
+<script src="/adminpanel.js"></script>
