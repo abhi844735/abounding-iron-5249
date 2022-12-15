@@ -1,0 +1,495 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: ProximaNovaA-Regular;
+;
+}
+#heading{
+    width: 100%;
+    height: 150px;
+    padding: 0%;
+}
+#heading img{
+    width: 160px;
+    margin-left: 7%;
+    height: 120px;
+    margin-top: 1%;
+}
+#heading_main1{
+    width: 90%;
+    height: 0px;
+    display: flex;
+    flex-direction: row-reverse;
+}
+#heading_main1 p{
+    color: #b2b2b2;
+    font-size: 15px;
+    margin-top: -135px;
+    margin-right: 20px;   
+    padding: 0%;
+    cursor: pointer;
+}
+#login{
+    padding-top: 1px;
+}
+#login:hover{
+    color:#84C225;
+}
+#heading_main2{
+    margin-left: 20%;
+    margin-top: -70px;
+    display: flex;
+}
+#search_bar{
+    width: 600px;
+    height: 35px;
+    padding: 5px;
+    font-size: 1.2rem;
+}
+#heading_main2 img{
+    width: 42px;
+    height: 36px;
+    margin-left: -1px;
+    margin-top: -1px;
+    opacity: 0.8;
+}
+#heading_main2 img:hover{
+    opacity: 1;
+}
+.mySlides{
+    display: none;
+    width: 100%;
+}
+#my_basket{
+    background-color: lightgray;
+    width: 150px;
+    padding: 6px;
+    display: flex;
+    font-size: 14px;
+    margin-left: 120%;
+    margin-top: -15px;
+    margin-bottom: 20px;
+
+}
+#my_basket img{
+    width: 20px;
+    height: 20px;  
+    margin-right: 10px;
+}
+
+#dropdown_list{
+    width: 12%;
+    height: 20%;
+    background-color: #84c225;
+    padding-top: 4px;
+    margin-left: 150px;
+    border-radius: 3px;
+    padding-left: 30px;
+}
+#dropdown_list a{
+    color: white;
+    text-decoration: none;
+    font-size: 12px;
+    cursor: pointer;
+}
+#drop1{
+    display: none;
+    background-color: white;
+    margin-left : -30px;
+    margin-top: 5%;
+}
+#dropdown_list:hover #drop1{
+    display: block;
+    position: absolute;
+    margin-top: 2px;
+    margin-right: 14px;
+}
+#dropdown_list:hover #drop1 a{
+    display: block;
+    color: black;
+    border-bottom: 1px solid black;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    padding: 5px;
+}
+#dropdown_list:hover #drop1 a:first-child{
+    border-top: 1px solid black;
+}
+#drop1 a:hover{
+    background-color: lightgray;
+}
+#offers{
+    width:12%;
+    height: 19%;
+    text-align: center;
+    margin-left: 22%;
+    margin-top: -29px;
+    border-radius: 3px;
+}
+#offers p{
+    font-size: 16px;
+    padding: 1px;
+
+}
+#offers p:hover{
+    cursor: pointer;
+    background-color: #84c225;
+    border-radius: 3px;
+    color: white;
+}
+
+#bodyy{
+    width: 100%;
+}
+
+#container
+{
+    border: 4px solid red;
+}
+
+#image_slider
+{
+    width: 80%;
+    height: 100%;
+    margin-top: 2%;
+    margin-left: 10%;
+    margin-bottom: 1%;
+}
+#company{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2%;
+    margin-top: 2%;
+}
+#company img{
+    width: 10%;
+    margin: 1%;
+}
+#bank_offers{
+    text-align: center;
+    font-size: 24px;
+    font-family: ProximaNovaA-Regular;
+}
+#bank_offers_id{
+    margin-top: 20px;
+}
+#bank_offers_id img{
+    width: 17%;
+    margin-left: 20px;
+    border: 0.5px solid lightgray;
+}
+#bank_offers_id img:hover{
+    box-shadow: 5px 5px 10px 10px grey;
+}
+
+#Top_Offers{
+    text-align: center;
+    font-size: 24px;
+    font-family: ProximaNovaA-Regular;
+    padding-bottom: 2%;
+    margin-top: 1%;
+}
+#Top_Offers_id{
+    margin-top: 20px;
+}
+#Top_Offers_id img{
+    width: 17%;
+    margin-left: 20px;
+    border: 0.5px solid lightgray;
+    padding-bottom: 2%;
+}
+#Top_Offers_id img:hover{
+    box-shadow: 5px 5px 10px 10px grey;
+}
+
+#Fruits_Vegetables{
+    text-align: center;
+    font-size: 24px;
+    font-family: ProximaNovaA-Regular;
+    padding-bottom: 2%;
+    margin-top: 1%;
+}
+#Fruit_vege_id{
+    margin-top: 20px;
+}
+#Fruit_vege_id img{
+    width: 11%;
+    margin-left: 20px;
+    border: 0.5px solid lightgray;
+    padding-bottom: 1%;
+}
+#Fruit_vege_id img:hover{
+    box-shadow: 5px 5px 10px 10px grey;
+}
+
+#Daily_Staples{
+    text-align: center;
+    font-size: 24px;
+    font-family: ProximaNovaA-Regular;
+    padding-bottom: 2%;
+    margin-top: 1%;
+}
+#Daily_Staples_id{
+    margin-top: 20px;
+}
+#Daily_Staples_id img{
+    width: 11%;
+    margin-left: 20px;
+    border: 0.5px solid lightgray;
+    padding-bottom: 1%;
+}
+#Daily_Staples_id img:hover{
+    box-shadow: 5px 5px 10px 10px grey;
+}
+
+
+#Snacks_Store{
+    text-align: center;
+    font-size: 24px;
+    font-family: ProximaNovaA-Regular;
+    padding-bottom: 2%;
+    margin-top: 1%;
+}
+#Snacks_Store_id{
+    margin-top: 20px;
+}
+#Snacks_Store_id img{
+    width: 11%;
+    margin-left: 20px;
+    border: 0.5px solid lightgray;
+    padding-bottom: 1%;
+}
+#Snacks_Store_id img:hover{
+    box-shadow: 5px 5px 10px 10px grey;
+}
+
+#Cleaning_Household{
+    text-align: center;
+    font-size: 24px;
+    font-family: ProximaNovaA-Regular;
+    padding-bottom: 2%;
+    margin-top: 1%;
+}
+#Cleaning_Household_id{
+    margin-top: 20px;
+}
+#Cleaning_Household_id img{
+    width: 17%;
+    margin-left: 20px;
+    border: 0.5px solid lightgray;
+    padding-bottom: 2%;
+}
+#Cleaning_Household_id img:hover{
+    box-shadow: 5px 5px 10px 10px grey;
+}
+
+
+.Beauty_Hygiene{
+    text-align: center;
+    font-size: 24px;
+    margin-top: 20px;
+}
+
+.Beauty_Hygiene_id{
+    display: flex;  
+    margin-left: 25px;
+    padding-left: 150px;
+    margin-bottom: 70px;
+}
+
+.right_beauty {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.left_beauty, .right_beauty{
+    margin-top: 20px;
+}
+.Beauty_Hygiene_id img{
+    border: 0.5px solid lightgray;
+    margin: 10px;
+}
+.Beauty_Hygiene_id img:hover{
+     box-shadow: 3px 3px 10px 10px grey;
+}
+
+
+
+.Beverages_para{
+    text-align: center;
+    font-size: 24px;
+    margin-top: 20px;
+}
+
+.beverages{
+    display: flex;  
+    margin-left: 25px;
+    padding-left: 150px;
+    margin-bottom: 70px;
+}
+
+.right_bevg {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.left_bevg, .right_bevg{
+    margin-top: 20px;
+}
+.beverages img{
+    border: 0.5px solid lightgray;
+    margin: 10px;
+}
+.beverages img:hover{
+     box-shadow: 3px 3px 10px 10px grey;
+}
+
+
+#Brand{
+    text-align: center;
+    font-size: 24px;
+    font-family: ProximaNovaA-Regular;
+    padding-bottom: 2%;
+    margin-top: 1%;
+}
+#Brand_id{
+    margin-top: 20px;
+}
+#Brand_id img{
+    width: 11%;
+    margin-left: 20px;
+    border: 0.5px solid lightgray;
+    padding-bottom: 1%;
+}
+#Brand_id img:hover{
+    box-shadow: 5px 5px 10px 10px grey;
+}
+
+
+
+#read_me{
+    width: 82%;
+    border: 1px solid grey;
+    margin: 50px auto;
+    /*display: none;*/
+    line-height: 1.5;
+    padding: 10px;
+    letter-spacing: 1.2;
+}
+#more {display: none;}
+#read_me h2{
+    text-align: left;
+    font-size: 15px;
+}
+#read_me button{
+    margin-left: 48%;
+    padding: 10px;
+    font-size: 15px;
+}
+#read_me button:hover{
+    background-color: #84c225;
+    color: white;
+}
+#middle_banners{
+/*    background-color: red;*/
+    width: 90%;
+    height: 50vh;
+    margin: 5vw;
+    
+}
+#footer{
+   /* background-color: black; */
+    width: 82%;
+    height: 90vh; 
+    margin-left: 9vw;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+#footer1{
+/*    background-color: blue;*/
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#footer2{
+/*    background-color: red;*/
+    width: 100%;
+    height: 35vh;
+
+    
+}
+.inside_footer1{
+/*    background-color: yellow;*/
+    width: 20vw;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    color: grey;
+    
+    font-weight: 70;
+    letter-spacing: 1px;
+    font-size: 13px;
+    
+}
+.inside_footer1 ul li{
+    margin-top: 2vh;
+}
+.inside_footer1 ul li:hover{
+    color: lawngreen;
+}
+.inside_footer1 span{
+    font-size: 15px;
+    color: forestgreen;
+}
+hr{
+    margin-top: -10vh;
+}
+#footer2 span{
+    color: forestgreen;
+    
+}
+#footer2 p{
+    color: grey;
+    font-size: 13px;
+    margin-top: 2vh;
+    
+}
+#greetings{
+    background-color: rgb(201, 0, 0);
+    width: 100%;
+    height: 3vh;
+    color: black;
+    font-family:monospace;
+    text-align: center;
+}
+#greetings span{
+    color: white;
+    font-size: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
