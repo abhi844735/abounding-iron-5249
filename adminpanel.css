@@ -118,4 +118,50 @@ table, th, td {
     background-color: grey;
     color:black;
   }
-  
+  #top-section>a{
+    text-decoration: none;
+    font-size: 23px;
+    text-align: right;
+    display:block;
+    padding-right: 40px;
+    padding-top: 10px;
+} 
+.bottom_section>div>img{
+    width: 90%;
+    border: 0.2px solid rgb(238, 238, 238);
+    /* width: 249px; */
+    border-radius: 10px;
+    /* height: 249px; */
+    box-shadow: 1px 2px #efe9e9;
+}
+.bottom_section>div>button{ 
+    text-transform: uppercase;
+      width: 30%;
+    border-radius: 4px;
+   border: 1px solid #fee67c;
+    background: #fee67c;
+   background: linear-gradient(180deg,#fee67c 0,#f2cb76);
+   padding: 0;
+   margin-left: 4px;
+   height: 22px;
+   margin-bottom: 0;
+   font-weight: 400;
+   text-align: center;
+   cursor: pointer;
+   font-size: 14px;
+}
+.bottom_section>div{
+    margin: 10px;
+    text-align: center;
+    box-shadow: 1px 2px #efe9e9;
+    padding-bottom: 15px;
+}
+
+.bottom_section{
+    height: auto;
+    width: 100%;
+    /* border: 1px red solid; */
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 10px;
+}

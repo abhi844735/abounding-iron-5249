@@ -13,6 +13,7 @@
 <body>
     <div id="top-section">
         <h1>Admin Panel</h1>
+        <a id="logout-link" href="adminlogin.html">Log Out</a>
     
     </div>
     <div id="main-div">
@@ -23,10 +24,10 @@
                 <input id="name" type="text" placeholder="Product name"> <br>
                 <label for="">Price of Product</label><br>
                 <input id="price" type="number" placeholder="Product Price"><br>
-                <label id="rating" for="">Rating</label> <br>
-                <input type="number" placeholder="Rating"><br>
+                <label id="" for="">Rating</label> <br>
+                <input type="number" id="rating" placeholder="Rating"><br>
                 <label for="">Image URL</label><br>
-                <input type="text" placeholder="URL"><br>
+                <input id="img" type="text" placeholder="URL"><br>
                 <label for="">Category</label><br>
                 <select name="" id="category"><br>
                     <option value="">Select</option>
@@ -50,8 +51,8 @@
                         <th>Remove User</th>
                     </tr>
                 </thead>
-                <tbody>
-                    <tr>
+                <tbody id="table_body">
+                    <!-- <tr>
                         <td>Abhi Panchal</td>
                         <td>12345678</td>
                         <td><button>Delete</button></td>
@@ -65,13 +66,17 @@
                         <td>Abhi Panchal</td>
                         <td>12345678</td>
                         <td><button>Delete</button></td>
-                    </tr>
+                    </tr> -->
                 </tbody>
             </table>
         </div>
 
     </div>
+    <div class="bottom_section">
+        
+
+    </div>
    
 </body>
 </html>
-<script src="/adminpanel.js"></script>
+<script src="adminpanel.js"></script>
