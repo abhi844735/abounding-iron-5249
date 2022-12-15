@@ -1,3 +1,13 @@
+import navbar from "./Component/navbar.js";
+let nav_div = document.getElementById("heading");
+nav_div.innerHTML = navbar();
+
+import footer from "./Component/footer.js";
+let footer_div = document.getElementById("footer_div");
+footer_div.innerHTML = footer();
+
+
+
 let empty_cart_btn = document.querySelector(".empty_cart");
 let checkout_btn = document.querySelector(".button-57");
 let continue_shopping_btn = document.querySelector(".button-86");
