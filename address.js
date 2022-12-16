@@ -1,3 +1,13 @@
+import navbar from "./Component/navbar.js";
+let nav_div = document.getElementById("heading");
+nav_div.innerHTML = navbar();
+
+import footer from "./Component/footer.js";
+let footer_div = document.getElementById("footer_div");
+footer_div.innerHTML = footer();
+
+
+
 document.getElementById("set_btn").addEventListener("click",function(){
     
     let data=[];
@@ -26,7 +36,28 @@ if(Name1==""||Name2==""){
   alert("Please fill your pin code")
 }else{
     alert("address is successfully saved")
-    window.location.href="payment.html"
+    //window.location.href="payment.html"
 }
 })
 
+
+let cart_data=JSON.parse(localStorage.getItem("cart_items"))||[]
+// let total_cost=5000
+let total_cost=cart_data.reduce((a,b)=>{
+  return a+Number(b.price)*b.quantity
+},0)
+
+document.getElementById("Rs1").append(total_cost)
+
+if(total_cost==0){
+  document.getElementById("Rs3").append(`${total_cost}`)
+  document.getElementById("Rs4").append(`${total_cost/10}`)
+}else{
+  document.getElementById("Rs3").append(`${total_cost+80}`)
+  document.getElementById("Rs4").append(`${total_cost/10}`)
+
+}
+
+document.getElementById("pay_btn").addEventListener("click",function(){
+  window.location.href="payment.html"
+})
