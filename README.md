@@ -2,11 +2,11 @@
  - The name of the project is Grocery Store
  - A web application to buy groceries online
 ## Team Members
- - Abhi
- - Sitansu
- - Naina
- - Nikhil
- - Vivek
+ - [Abhi](https://github.com/abhi844735)
+ - [Sitansu](https://github.com/sitansu04)
+ - [Naina](https://github.com/NainaPremani)
+ - [Nikhil](https://github.com/nikhiljangra0954)
+ - [Vivek](https://github.com/agrawal-vivek)
 
 ## Tech Stacks
  - HTML
