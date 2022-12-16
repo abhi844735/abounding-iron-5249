@@ -4,10 +4,10 @@ const navbar = () =>
     let cartData=JSON.parse(localStorage.getItem("cart_items"))||[];
     let totalItems=cartData.reduce((a,b)=>{return a +b.quantity},0);
     return `
-    <img src="https://i.ibb.co/hmSdYf0/Grocery-Store.png" alt="logo">
+    <a href="homepage.html"><img src="https://i.ibb.co/hmSdYf0/Grocery-Store.png" alt="logo"></a>
     <div id="heading_main1">
         <p id="login">Login|Sign Up</p>
-        <p>ADMIN LOGIN</p>
+        <a href="adminlogin.html"><p>ADMIN LOGIN</p></a>
         <p>📍56004, Bangalore</p>
         <p>📞1860 123 1000</p>
     </div>
@@ -24,15 +24,13 @@ const navbar = () =>
                 </span>
             </div>
         </a>
-    </div>
-
-    <div id="dropdown_list">
+        <div id="dropdown_list">
             <a href="#"><b>SHOP BY CATEGORY</b></a>
             <div id="drop1">
                 <a href="#">Fruits and Vegetables</a>
                 <a href="#">Food Grains Oils and Masalas</a>
                 <a href="#">Bakery, Cakes and Diaries</a>
-                <a href="products.html">Beverages</a>
+                <a href="#">Beverages</a>
                 <a href="#">Snacks and Branded Foods</a>
                 <a href="#">Beauty and Hygiene</a>
                 <a href="#">Cleaning and Household</a>
@@ -46,6 +44,9 @@ const navbar = () =>
         <div id="offers">
             <p>🏷️ OFFERS</p>
         </div>
+    </div>
+
+    
     `
 }
 
