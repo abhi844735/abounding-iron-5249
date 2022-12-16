@@ -1,5 +1,8 @@
+
 const navbar = () =>
 {
+    let cartData=JSON.parse(localStorage.getItem("cart_items"))||[];
+    let totalItems=cartData.reduce((a,b)=>{return a +b.quantity},0);
     return `
     <img src="https://i.ibb.co/hmSdYf0/Grocery-Store.png" alt="logo">
     <div id="heading_main1">
@@ -17,7 +20,7 @@ const navbar = () =>
                 <span>
                     <p>My Basket</p>
                     <br>
-                    <p id="bask">0 Items</p>
+                    <p id="bask">${totalItems} Items</p>
                 </span>
             </div>
         </a>
