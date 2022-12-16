@@ -14,6 +14,7 @@
  - JavaSript
  - LocalStorage
  - DOM
+ - Mock API
 
 ## Tools
  - VS Code
