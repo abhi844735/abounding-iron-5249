@@ -9,10 +9,6 @@
 #heading{
     width: 100%;
     height: 150px;
-    padding: 0%;
-    position: fixed;
-    top: 0%;
-    background-color: whitesmoke;
 }
 #heading img{
     width: 120px;
@@ -35,10 +31,10 @@
     padding: 0%;
     cursor: pointer;
 }
-#login{
+.login{
     padding-top: 1px;
 }
-#login:hover{
+.login:hover{
     color:#84C225;
 }
 #heading_main2{
@@ -84,20 +80,19 @@
 }
 
 #dropdown_list{
-    width: 10.4%;
-    height: 4%;
-    margin-top: 3%;
+    width: 12.4%;
+    height: 18%;
+    margin-top: 0%;
     background-color: #84c225;
     padding-top: 4px;
-    margin-left: -70px;
-    border-radius: 3px;
-    position: fixed;
+    margin-left: 120px;
+    border-radius: 2px;
     text-align: center;
 }
 #dropdown_list a{
     color: white;
     text-decoration: none;
-    font-size: 12px;
+    font-size: 13px;
     cursor: pointer;
     text-align: center;
 }
@@ -127,28 +122,28 @@
 #drop1 a:hover{
     background-color: lightgray;
 }
-#offers{
+/* #offers
     width:8%;
     height: 17%;
     text-align: center;
     margin-left: -58%;
     margin-top: 47px;
     border-radius: 3px;
-}
-#offers p{
+
+#offers p
     font-size: 16px;
     padding: 1px;
 
-}
-#offers p:hover{
+
+#offers p:hover
     cursor: pointer;
     border-radius: 3px;
     color: yellowgreen;
-}
+ */
 
 #bodyy{
     width: 100%;
-    margin-top: 14%;
+    margin-top: 2%;
 }
 
 #container

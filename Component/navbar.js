@@ -4,11 +4,11 @@ const navbar = () =>
     let cartData=JSON.parse(localStorage.getItem("cart_items"))||[];
     let totalItems=cartData.reduce((a,b)=>{return a +b.quantity},0);
     return `
-    <a href="homepage.html"><img src="https://i.ibb.co/hmSdYf0/Grocery-Store.png" alt="logo"></a>
+    <a href="index.html"><img src="https://i.ibb.co/hmSdYf0/Grocery-Store.png" alt="logo"></a>
     <div id="heading_main1">
-        <p id="login">Login|Sign Up</p>
         <a href="adminlogin.html"><p>ADMIN LOGIN</p></a>
-        <p>📍56004, Bangalore</p>
+        <a href="signup.html"><p class="login">Sign Up</p></a>
+        <a href="login.html"><p class="login">Login<p></a>
         <p>📞1860 123 1000</p>
     </div>
     <div id="heading_main2">
@@ -18,16 +18,18 @@ const navbar = () =>
             <div id="my_basket">
                 <img src="Images/shopping-basket.png">
                 <span>
-                    <p>My Basket</p>
+                    <p id="mybasket">My Basket</p>
                     <br>
                     <p id="bask">${totalItems} Items</p>
                 </span>
             </div>
         </a>
-        <div id="dropdown_list">
+        
+    </div>
+    <div id="dropdown_list">
             <a href="#"><b>SHOP BY CATEGORY</b></a>
             <div id="drop1">
-                <a href="#">Fruits and Vegetables</a>
+                <a href="products.html">Fruits and Vegetables</a>
                 <a href="#">Food Grains Oils and Masalas</a>
                 <a href="#">Bakery, Cakes and Diaries</a>
                 <a href="#">Beverages</a>
@@ -41,11 +43,6 @@ const navbar = () =>
                 <a href="#">View All</a>
             </div>
         </div>
-        <div id="offers">
-            <p>🏷️ OFFERS</p>
-        </div>
-    </div>
-
     
     `
 }

@@ -42,13 +42,6 @@ var slideIndex = 0;
 read_button.addEventListener("click",myFunction);
   
 
-
-
-
-
-
-
-
 function plusDivs(n) {
   showDivs(slide_Index += n);
 }
@@ -79,6 +72,17 @@ right_button.addEventListener("click",()=>
 {
   plusDivs(1);
 });
+
+function cart_direct()
+{
+  window.location.href="cart.html";
+}
+
+let Basket_click = document.getElementById("mybasket");
+Basket_click.addEventListener("click",()=>
+{
+  cart_direct();
+})
 
 
 
