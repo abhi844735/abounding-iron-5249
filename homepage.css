@@ -2,8 +2,11 @@
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
-  font-family: ProximaNovaA-Regular;
+  /* font-family: ProximaNovaA-Regular; */
 ;
+}
+body{
+  font-family: 'Roboto', sans-serif;
 }
 #heading{
   width: 100%;

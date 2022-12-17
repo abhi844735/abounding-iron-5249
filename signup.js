@@ -42,7 +42,7 @@ form.addEventListener("submit",(e)=>{
             add_users_api(user_api_data);
             localStorage.setItem("signup-data",JSON.stringify(signupData));
             alert("Sign Up successfully");
-            // window.location.href="login.html";
+            window.location.href="login.html";
         }
     }
 
