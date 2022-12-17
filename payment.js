@@ -24,8 +24,8 @@ document.querySelector("#pay").addEventListener("click", function () {
   let CVV = document.querySelector("#cvv").value;
   let acc = JSON.parse(localStorage.getItem("ACCOUNT"));
   if (acc[0].card == CARD && acc[0].valid == VALID && acc[0].cvv == CVV) {
-    alert("otp sent successfully");
-    window.location.href="homepage.html"
+    alert("Payment Successfull");
+    window.location.href="index.html"
   } else {
     alert("Invalid card detail");
   }
