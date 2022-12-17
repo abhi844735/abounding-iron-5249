@@ -1,7 +1,7 @@
 # abounding-iron-5249
  - A web application to buy groceries online.
  - The name of the project is Grocery Store.
- - [Grocery Store](https://taupe-youtiao-44feae.netlify.app/)
+ - [Grocery Store link](https://taupe-youtiao-44feae.netlify.app/)
  
 ## Team Members
  - [Abhi](https://github.com/abhi844735)
