@@ -7,6 +7,7 @@ import footer from "./Component/footer.js";
 let footer_div = document.getElementById("footer_div");
 footer_div.innerHTML = footer();
 
+let cart_data=JSON.parse(localStorage.getItem("cart_items"))||[];
 
 
 let account = [];
@@ -25,6 +26,8 @@ document.querySelector("#pay").addEventListener("click", function () {
   let acc = JSON.parse(localStorage.getItem("ACCOUNT"));
   if (acc[0].card == CARD && acc[0].valid == VALID && acc[0].cvv == CVV) {
     alert("Payment Successfull");
+    cart_data=[];
+    localStorage.setItem("cart_items",JSON.stringify(cart_data));
     window.location.href="index.html"
   } else {
     alert("Invalid card detail");
