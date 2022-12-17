@@ -54,6 +54,8 @@ let url ="https://63983534044fa481d694c51f.mockapi.io/items?limit=24&page=1"
                   }
                 }
                 cart_data.push({...element,quantity:1})
+                alert("item added successfully")
+                window.location.reload()
                 localStorage.setItem("cart_items",JSON.stringify(cart_data))
             })
   
