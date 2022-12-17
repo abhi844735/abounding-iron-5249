@@ -96,6 +96,10 @@ body{
     box-shadow: 1px 2px #efe9e9;
     padding-bottom: 15px;
 }
+.bottom_section>div:hover{
+    box-shadow: 3px 3px #cfcfcf;
+    cursor: pointer;
+}
 .bottom_section>div>button{ 
      text-transform: uppercase;
        width: 30%;
@@ -111,6 +115,10 @@ body{
     text-align: center;
     cursor: pointer;
     font-size: 14px;
+}
+.bottom_section>div>button:hover{
+    background: #fee67c;
+     
 }
 
   .bottom_section>div>img{
